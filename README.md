@@ -31,5 +31,12 @@ Walk-e is a walker that is enhanced with intelligent technology. An object detec
       source tflite-env/bin/activate
       cd object_detection
       python TFLite_detection_webcam.py --modeldir=coco_ssd_mobilenet_v1
+   
 2) If successful, you should be able to see a camera window on the screen. The LED strip should be emitting blue light unless an obstacle is detected. Also in the command window, you should be able to see the names of the objects and their coordinates.
 ![image](https://github.com/kapis20/Walk-e/assets/87130809/9d8b357c-5496-41e7-82a6-f0187bee90e7)
+
+3) Sometimes there is an issue with a serial port on Raspberry Pi. If a problem arises with the serial port, none of the actions outlined in step 2 will occur and an error message will be displayed in the command terminal.
+4) To fix it, navigate to /home/pi/Projects/Python/tflite/object_detection/TFLite_detection_webcam.py
+5) In Line 102 of the code : serial_port = “/dev/ttyACM [CHANGE HERE]. Replace 0 with 1, or 1 with 0.
+![image](https://github.com/kapis20/Walk-e/assets/87130809/9351c624-9a3f-4e20-8934-be925d13533c)
+6) Save the code and follow step 1 again. 
