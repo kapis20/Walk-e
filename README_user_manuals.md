@@ -8,7 +8,7 @@ Walk-e is a walker that is enhanced with intelligent technology. An object detec
 
 
 ## High-Level user manuals:
-## Components needed: 
+### Components needed: 
 - 5V power supply or a laptop/computer
 - monitor
 - mouse
