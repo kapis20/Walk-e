@@ -59,3 +59,13 @@ and modified by Boon K Teo, Mahmoud Elhelaly and KAcper Sikorski who established
 3) These objects are used later in the code to display warnings on the screen (Raspberry Pi display).
 ![image](https://github.com/kapis20/Walk-e/assets/87130809/5e927d8c-2472-487b-bbf3-a94b9fd2ecd0)
 
+4) Also certain messages are send to Arduino over seral communication, based on the objects mentioned in 1)
+![image](https://github.com/kapis20/Walk-e/assets/87130809/e9016bd7-f0b6-4212-ae18-89e10e63eeaa)
+
+5) Arduino interprets these messages and changes the output of vibration motors and LED strips based on them. For example for the red category object, <digitalWrite(MotorPin, HIGH);> turns on the motor and <setColor(RED);> is a function that changes the colour of LEDs to red.
+
+![image](https://github.com/kapis20/Walk-e/assets/87130809/ceb49e06-db77-44cc-be59-34ad866148eb)
+
+![image](https://github.com/kapis20/Walk-e/assets/87130809/41986ebf-5651-4f20-91df-2649c5f57008)
+
+
