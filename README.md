@@ -39,4 +39,23 @@ Walk-e is a walker that is enhanced with intelligent technology. An object detec
 4) To fix it, navigate to /home/pi/Projects/Python/tflite/object_detection/TFLite_detection_webcam.py
 5) In Line 102 of the code : serial_port = “/dev/ttyACM [CHANGE HERE]. Replace 0 with 1, or 1 with 0.
 ![image](https://github.com/kapis20/Walk-e/assets/87130809/9351c624-9a3f-4e20-8934-be925d13533c)
-6) Save the code and follow step 1 again. 
+6) Save the code and follow step 1 again.
+
+
+## The normal operation of the system 
+This code is based off the TensorFlow Lite image classification example at:
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/python/label_image.py
+Modified by: Shawn Hyme who added method of drawing boxes and labels using OpenCV
+and modified by Boon K Teo, Mahmoud Elhelaly and KAcper Sikorski who established the serial communication between the Raspberry Pi and Arduino to send commands that trigger various alerts in the system. 
+
+1) In the picture below is the lists of objects and different colours they were assigned to: 
+![image](https://github.com/kapis20/Walk-e/assets/87130809/f1b0de36-3e5d-4041-b739-8e5d323ee671)
+
+
+
+2) Interest is a collection of object categories that trigger various alerts.
+![image](https://github.com/kapis20/Walk-e/assets/87130809/dd29904d-bdc1-4448-8090-b3e18666f18f)
+
+3) These objects are used later in the code to display warnings on the screen (Raspberry Pi display).
+![image](https://github.com/kapis20/Walk-e/assets/87130809/5e927d8c-2472-487b-bbf3-a94b9fd2ecd0)
+
