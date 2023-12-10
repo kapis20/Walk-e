@@ -13,4 +13,14 @@ Walk-e is a walker that is enhanced with intelligent technology. An object detec
 2) Connect HDMI0 on Raspberry Pi to HDMI on the monitor.
    ![image](https://github.com/kapis20/Walk-e/assets/87130809/e1248caa-0172-42b7-9345-fd37b1b740bb)
 
-4) Attach the mouse and keyboard to the Raspberry Pi through the black USB ports on the left.
+3) Attach the mouse and keyboard to the Raspberry Pi through the black USB ports on the left.   
+![image](https://github.com/kapis20/Walk-e/assets/87130809/89f42562-065b-4cf4-bf30-04b7240b601a)
+
+4) Connect the grey USB cable to the 5V and 1A power supply. It can be attached to the computer/laptop.
+![image](https://github.com/kapis20/Walk-e/assets/87130809/2d25db6c-ab95-4e42-ba99-8cf59f2267be)
+
+5) Connect a black USB cable from Arduino to a serial port on Raspberry Pi. Either one of the blue USB ports on Raspberry Pi.
+![image](https://github.com/kapis20/Walk-e/assets/87130809/2f4ac62e-1e11-4337-80c0-69af9aac8ffd)
+
+6) When you power on the device, the vibration motor will emit a short sound and the LED strips will briefly turn blue before turning off. Additionally, you should be able to view the Raspberry Pi turning on through your monitor.
+7) If nothing happens, try disconnecting Raspberry Pi from the mains for a few seconds and then power it up again. 
