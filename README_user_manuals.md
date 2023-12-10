@@ -8,6 +8,13 @@ Walk-e is a walker that is enhanced with intelligent technology. An object detec
 
 
 ## High-Level user manuals:
+## Components needed: 
+- 5V power supply or a laptop/computer
+- monitor
+- mouse
+- keyboard
+- Access to mains power socket 
+
 ### Set up:
 1) Power up Raspberry Pi - connect the white plug to the mains and type-c end to the Raspberry Pi.
 2) Connect HDMI0 on Raspberry Pi to HDMI on the monitor.
