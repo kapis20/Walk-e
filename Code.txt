@@ -1,0 +1,4 @@
+cd ~/Projects/Python/tflite
+source tflite-env/bin/activate
+cd object_detection
+python TFLite_detection_webcam.py --modeldir=coco_ssd_mobilenet_v1
