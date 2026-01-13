@@ -4,6 +4,8 @@ This is a repo containing scripts for Walk-e, a smart walker that utilizes ML al
 ## Purpose:
 Walk-e is a walker that is enhanced with intelligent technology. An object detection machine learning algorithm is incorporated into it. It is managed by an Arduino microcontroller to provide alerts and warnings based on the environment, thus increasing user safety. By integrating advanced technology into a conventional mobility aid, this innovative device aims to improve the overall walking experience and prevent falls for individuals facing mobility issues. The product aims to enrich the lives of individuals, restore their independence and boost confidence. 
 
+
+### Check out the demo (click on the image below):
 [![Watch the demo on YouTube](https://img.youtube.com/vi/Gjw-Pgs8cjk/0.jpg)](https://www.youtube.com/watch?v=Gjw-Pgs8cjk)
 
 
